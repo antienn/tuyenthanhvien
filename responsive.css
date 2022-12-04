@@ -1,0 +1,136 @@
+@media only screen and (max-width: 1200px){
+    .container{
+        width: 800px;
+    }
+    .balloon > div {
+        width:104px;
+        height: 140px;
+    }
+    span{
+        font-size: 3.6em;
+    }
+    .container_cat{
+        bottom: -35%;
+    }
+    .container_cat svg{
+        width: 60%;
+    }
+    .balloon > div:nth-child(6){
+        left: -170px;
+    }
+    .balloon > div:nth-child(7){
+        left: -50px;
+    }
+    .balloon > div:nth-child(8){
+        left: 50px;
+    }
+    .balloon > div:nth-child(9){
+        left: 160px;
+    }
+    .balloon > div:nth-child(10){
+        left: 270px;
+    }
+    .balloon > div:nth-child(11){
+        left: 390px;
+    }
+    .balloon > div:nth-child(12){
+        left: 490px;
+    }
+    .balloon > div:nth-child(13){
+        left: 650px;
+    }
+    .balloon > div:nth-child(14){
+        left: 750px;
+    }
+    .balloon > div:nth-child(15){
+        left: 850px;
+    }
+}
+@media only screen and (max-width: 980px){
+    .balloon > div:before {
+        bottom: -13px;
+        left: 40px; 
+    }
+    span{
+        font-size: 3.6em;
+    }
+    .balloon > div:nth-child(1){
+        left:140px;
+    }
+    .balloon > div:nth-child(2){
+        left:240px;
+    }
+    .balloon > div:nth-child(3){
+        left:330px;
+    }
+    .balloon > div:nth-child(4){
+        left:430px;
+    }
+    .balloon > div:nth-child(5){
+        left:530px;
+    }
+    .balloon > div:nth-child(6){
+        top: 130px;
+        left: 10px;
+    }
+    .balloon > div:nth-child(7){
+        top: 130px;
+        left: 110px;
+    }
+    .balloon > div:nth-child(8){
+        top: 130px;
+        left: 210px;
+    }
+    .balloon > div:nth-child(9){
+        top: 130px;
+        left: 310px;
+    }
+    .balloon > div:nth-child(10){
+        top: 130px;
+        left: 410px;
+    }
+    .balloon > div:nth-child(11){
+        top: 130px;
+        left: 510px;
+    }
+    .balloon > div:nth-child(12){
+        top: 130px;
+        left: 610px;
+    }
+    .balloon > div:nth-child(13){
+        top: 260px;
+        left: 200px;
+    }
+    .balloon > div:nth-child(14){
+        top: 260px;
+        left: 300px;
+    }
+    .balloon > div:nth-child(15){
+        top: 260px;
+        left: 400px;
+    }
+    
+    .container_cat{
+        bottom: -40%;
+    }
+    .container_cat svg {
+        height: 100%;
+        width: 95%;
+    }
+    .swal-modal{
+        width: 70vw;
+        border-radius: 10px;
+        height: 30vh;
+    }
+    .swal-text{
+        font-size: 40px;
+        text-align:justify;  
+        text-justify:initial;
+    }
+    .swal-title{
+        font-size: 70px;
+    }
+    .swal-button{
+        font-size: 50px;
+    }
+}
